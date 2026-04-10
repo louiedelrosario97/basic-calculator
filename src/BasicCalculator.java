@@ -29,6 +29,7 @@ public class BasicCalculator {
     //Add the math function type prompt and add a Scanner
     System.out.print ("Please select an option above, no answer is a bad answer!: ");
     String mathFunction = scan.nextLine();
+    System.out.println(); //whitespace for readability
 
     //Add "if" and  "else if" statements to create outputs for +,-,*,/
     if (mathFunction.equals("A")) {
