@@ -13,7 +13,7 @@ public class BasicCalculator {
     //Add the second number prompt and add a Scanner
     System.out.print ("Enter the second number: ");
     double secondNumber = scan.nextDouble();
-    scan.nextLine(); //Added this because of the space in between lines
+    scan.nextLine(); //Added this because of the space inbetween lines
 
     //Add the Possible Calculations print lines
     System.out.println("Possible calculations:");
