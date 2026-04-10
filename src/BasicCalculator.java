@@ -7,11 +7,11 @@ public class BasicCalculator {
     Scanner scan = new Scanner(System.in);
 
     //Add the first number prompt and add a Scanner
-    System.out.print ("Enter a float: ");
+    System.out.print ("Enter a number, any number!: ");
     double firstNumber = scan.nextDouble();
 
     //Add the second number prompt and add a Scanner
-    System.out.print ("Enter another float: ");
+    System.out.print ("Enter another number, choose carefully: ");
     double secondNumber = scan.nextDouble();
     scan.nextLine(); //Added this because of the space inbetween lines
 
@@ -23,7 +23,7 @@ public class BasicCalculator {
         System.out.println("(D)ivide");
 
     //Add the math function type prompt and add a Scanner
-    System.out.print ("Please select an option: ");
+    System.out.print ("Please select an option, no answer is a bad answer!: ");
     String mathFunction = scan.nextLine();
 
     //Add "if" and  "else if" statements to create outputs for +,-,*,/
@@ -36,7 +36,7 @@ public class BasicCalculator {
     } else if (mathFunction.equals("D")) {
         System.out.println(firstNumber + " / " + secondNumber + " = " + (firstNumber / secondNumber));
     } else
-        System.out.println("Try again, silly boi.");
+        System.out.println("You chose the worst possible response. [ YOU DIED ]");
 
 
 
