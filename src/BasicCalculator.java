@@ -17,16 +17,16 @@ public class BasicCalculator {
     System.out.print ("Please select an option: ");
     String mathFunction = calculationMethod.nextLine();
     if (mathFunction.equals("A")) {
-        System.out.println(firstNumber + secondNumber);
+        System.out.println(firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber));
     }
     if (mathFunction.equals("S")) {
-        System.out.println(firstNumber - secondNumber);
+        System.out.println(firstNumber + " - " +secondNumber + " = " + (firstNumber - secondNumber));
     }
     if (mathFunction.equals("M")) {
-        System.out.println(firstNumber * secondNumber);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + (firstNumber * secondNumber));
     }
     if (mathFunction.equals("D")) {
-        System.out.println(firstnumber + firstNumber / secondNumber);
+        System.out.println(firstNumber + " / " + secondNumber + " = " + (firstNumber / secondNumber));
     }
     else
         System.out.println("Try again silly boi.");
