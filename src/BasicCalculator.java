@@ -15,6 +15,7 @@ public class BasicCalculator {
     double secondNumber = scan.nextDouble();
     scan.nextLine(); //Added this because of the space inbetween lines
 
+    System.out.println("Wow, you chose " + firstNumber + " and " + secondNumber + "? Typical.");
     //Add the Possible Calculations print lines
     System.out.println("Possible calculations:");
         System.out.println("(A)dd");
