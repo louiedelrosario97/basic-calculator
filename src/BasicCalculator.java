@@ -11,20 +11,23 @@ public class BasicCalculator {
     double firstNumber = scan.nextDouble();
 
     //Add the second number prompt and add a Scanner
-    System.out.print ("Enter another number, choose carefully: ");
+    System.out.print (firstNumber + "? Uhm, ok... That's fine I guess. Choose another number: ");
     double secondNumber = scan.nextDouble();
     scan.nextLine(); //Added this because of the space inbetween lines
+    System.out.println(); //whitespace for readability
+    System.out.println("... not the best choices, but not the worst either. " + firstNumber + " and " + secondNumber + " are both in my Top 10 Worst Numbers of All Time. To each their own, I guess.");
+    System.out.println(); //whitespace for readability
 
-    System.out.println("Wow, you chose " + firstNumber + " and " + secondNumber + "? Typical.");
     //Add the Possible Calculations print lines
-    System.out.println("Possible calculations:");
+    System.out.println("Math function menu:");
         System.out.println("(A)dd");
         System.out.println("(S)ubtract");
         System.out.println("(M)ultiply");
         System.out.println("(D)ivide");
+    System.out.println(); //whitespace for readability
 
     //Add the math function type prompt and add a Scanner
-    System.out.print ("Please select an option, no answer is a bad answer!: ");
+    System.out.print ("Please select an option above, no answer is a bad answer!: ");
     String mathFunction = scan.nextLine();
 
     //Add "if" and  "else if" statements to create outputs for +,-,*,/
