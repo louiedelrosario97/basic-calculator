@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31394b5-5bf4-47cf-8855-a74360b10518" name="Changes" comment="changed the printlines for fun" />
+    <list default="true" id="f31394b5-5bf4-47cf-8855-a74360b10518" name="Changes" comment="Added whitespace on line 32">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +81,9 @@
       <updated>1775797247947</updated>
       <workItem from="1775797249181" duration="8056000" />
       <workItem from="1775805865295" duration="1561000" />
-      <workItem from="1775807762663" duration="1274000" />
+      <workItem from="1775807762663" duration="1595000" />
+      <workItem from="1775809405349" duration="329000" />
+      <workItem from="1775835127300" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed if statement structure. Added {}">
       <option name="closed" value="true" />
@@ -145,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775808995530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added whitespace on line 32">
+      <option name="closed" value="true" />
+      <created>1775809223662</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775809223662</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +169,8 @@
     <MESSAGE value="Changed if statements to else if, that way else input comes out correctly" />
     <MESSAGE value="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace" />
     <MESSAGE value="changed the printlines for fun" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the printlines for fun" />
+    <MESSAGE value="Added whitespace on line 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added whitespace on line 32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,6 +179,11 @@
           <url>file://$PROJECT_DIR$/src/BasicCalculator.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BasicCalculator.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

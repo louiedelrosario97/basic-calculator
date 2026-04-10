@@ -15,7 +15,7 @@ public class BasicCalculator {
     double secondNumber = scan.nextDouble();
     scan.nextLine(); //Added this because of the space inbetween lines
     System.out.println(); //whitespace for readability
-    System.out.println("... not the best choices, but not the worst either. " + firstNumber + " and " + secondNumber + " are both in my Top 10 Worst Numbers of All Time. To each their own, I guess.");
+    System.out.println("... not the best choices. " + firstNumber + " and " + secondNumber + " are both in my Top 10 Worst Numbers of All Time. To each their own, I guess.");
     System.out.println(); //whitespace for readability
 
     //Add the Possible Calculations print lines
