@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31394b5-5bf4-47cf-8855-a74360b10518" name="Changes" comment="Changed if statements to else if, that way else input comes out correctly">
+    <list default="true" id="f31394b5-5bf4-47cf-8855-a74360b10518" name="Changes" comment="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicCalculator.java" afterDir="false" />
     </list>
@@ -79,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775797247947</updated>
-      <workItem from="1775797249181" duration="7121000" />
+      <workItem from="1775797249181" duration="8056000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed if statement structure. Added {}">
       <option name="closed" value="true" />
@@ -105,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775803306011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace">
+      <option name="closed" value="true" />
+      <created>1775804638717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775804638717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace">
+      <option name="closed" value="true" />
+      <created>1775804812417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775804812417</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +131,8 @@
     <MESSAGE value="Fixed if statement structure. Added {}" />
     <MESSAGE value="Fixed &quot;if&quot; statements print line errors. Added &quot;+&quot; in between all elements" />
     <MESSAGE value="Changed if statements to else if, that way else input comes out correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed if statements to else if, that way else input comes out correctly" />
+    <MESSAGE value="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project Comments and added the scan.nextLine(); on line 16 to fix the Enter &quot;buffer&quot; from the whitespace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -124,11 +141,6 @@
           <url>file://$PROJECT_DIR$/src/BasicCalculator.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BasicCalculator.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,11 +7,11 @@ public class BasicCalculator {
     Scanner scan = new Scanner(System.in);
 
     //Add the first number prompt and add a Scanner
-    System.out.print ("Enter the first number: ");
+    System.out.print ("Enter a float: ");
     double firstNumber = scan.nextDouble();
 
     //Add the second number prompt and add a Scanner
-    System.out.print ("Enter the second number: ");
+    System.out.print ("Enter another float: ");
     double secondNumber = scan.nextDouble();
     scan.nextLine(); //Added this because of the space inbetween lines
 
@@ -36,7 +36,7 @@ public class BasicCalculator {
     } else if (mathFunction.equals("D")) {
         System.out.println(firstNumber + " / " + secondNumber + " = " + (firstNumber / secondNumber));
     } else
-        System.out.println("Try again silly boi.");
+        System.out.println("Try again, silly boi.");
 
 
 
